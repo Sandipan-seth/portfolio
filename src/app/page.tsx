@@ -4,9 +4,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen ">
       <Navbar />
       <Hero />
+      <div className="bg-white text-black w-full h-screen" >
+        Next page
+      </div>
     </div>
   );
 }
