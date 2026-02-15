@@ -1,6 +1,16 @@
 import bgImage from "../../assets/HomeAssets/bg.png";
 
 export default function Home() {
+  const technologies = [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Tailwind CSS",
+  ];
   return (
     <>
       <div>
@@ -11,7 +21,16 @@ export default function Home() {
         />
       </div>
       <div className="bg-black/50 text-white w-full h-screen flex items-center justify-center bg-cover bg-center">
-        <h1 className="text-4xl font-bold">Hello, Hero!</h1>
+        {/* <h1 className="text-4xl font-bold">Hello, Hero!</h1> */}
+
+        
+
+
+
+
+
+
+      
       </div>
     </>
   );
